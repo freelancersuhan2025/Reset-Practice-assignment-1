@@ -1,0 +1,305 @@
+body {
+  margin: auto;
+  width: 688px;
+}
+
+/****************** header all style start*********************************/
+header {
+  width: 688px;
+  height: 340px;
+  background-image: url(images/banner/banner1.png);
+  background-repeat: no-repeat;
+  /* background-position:; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-size: cover;
+}
+.bannerContent {
+  text-align: end;
+  margin: 0px 100px 0px 0px;
+  width: 200px;
+}
+.bannertitle {
+  font-size: 27px;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 5px;
+}
+.bannerdescr {
+  font-size: 7px;
+  font-family: 'Work Sans';
+  line-height: 11px;
+  letter-spacing: 0.2px;
+  color:#4443437e;
+  font-weight: 100;
+  word-spacing: 0.4px;
+  list-style: armenian;
+}
+.contact-button {
+  background-color: #f15b22;
+  margin-top: 7px;
+  font-family: 'Work Sans', sans-serif;
+  border: none;
+  border-radius: 3px;
+  font-size: 8.5px;
+  font-weight: 500;
+  padding: 9px 12px;
+  color: white;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+/****************** header all style end*******************************/
+/* *****************My failures of previous Year start ******************** */
+.Myfailuresosection {
+  height: 400px;
+  display: flex;
+
+  justify-content: center;
+  gap: 4%;
+}
+.myphoto {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 40%;
+  height: 100%;
+}
+.myphoto > img {
+  width: 90%;
+  margin-top: 7%;
+}
+/***************************************/
+.myfailur {
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  font-size: 14px;
+  color:#151414;
+  align-items: center;
+  width: 35%;
+  height: 100%;
+}
+.myfailurcontent {
+  height: 170px;
+  margin-top: 35%;
+}
+.myfailurtitle {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 800;
+}
+.myfailurdescrip {
+  font-size: 7px;
+  font-weight: 100;
+  color: #706F6F;
+  font-family: 'Work Sans', sans-serif;
+    line-height: 11.5px;
+  word-spacing: 0.7px;
+  letter-spacing: 0.4px;
+  margin-bottom: 12px;
+}
+.myfailurcontent b {
+  font-size:7.2px;
+  font-weight: 100;
+  display: block;
+  display: flex;
+  letter-spacing: 0.5px;
+  font-family: 'Work Sans', sans-serif;
+  color: #706F6F;
+  word-spacing: 1px;
+  align-items: center;
+  line-height: 10px;
+  margin-bottom: -12px;
+}
+.myfailurcontent > b > img {
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+}
+
+/* *****************My failures of previous Year end ******************** */
+
+/*************************Plane section start***********************/
+.MyPlans {
+  width: 79%;
+  height: 365px;
+  margin: auto;
+   font-family: 'Work Sans', sans-serif;
+}
+.MyPlans .title {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 800;
+}
+.technologys {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  justify-content: space-around;
+}
+.technologys h2 {
+  font-size: 11.5px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+.technologys b {
+  font-size: 9px;
+  letter-spacing:1px;
+  color: rgb(132, 132, 133);
+  font-weight: 600;
+}
+
+.technologys img {
+  width: 40px;
+}
+
+.technologys .cap {
+  font-size: 10px;
+  width: 80px;
+}
+
+/****bg****/
+.bannerwatch {
+  margin: auto;
+  height: 125px;
+  width: 88%;
+  padding-top: 1px;
+  border-radius: 7px;
+  background-color: antiquewhite;
+  margin-top: 46px;
+  background: linear-gradient(90deg, #e25b2a, rgba(245, 244, 244, 0)),
+    url(images/watch.png);
+  /* background:linear-gradient(90deg,red , white); 
+  background-blend-mode: multiply;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.watchcontent {
+  margin: 14px 30px;
+  background-size: contain;
+  width: fit-content;
+  height: 70%;
+}
+.bannerwatch h2 {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  font-weight: 900;
+  word-spacing: 0.3px;
+  padding-top: 1px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.bannerwatch button {
+  display: inline-block;
+  background-color: white;
+  font-weight: 800;
+  color: #e25b2a;
+  margin-top: -15px;
+}
+/****bg****/
+
+/*************************Plane section end***********************/
+
+/*********************footer alll style start************** */
+footer {
+  height: 260px;
+  display: flex;
+  font-family: 'Work Sans', sans-serif;  align-items: center;
+  background-color: #060505;
+}
+
+.footersection {
+  width: 688px;
+  height: fit-content;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.futuresection {
+  height: 100%;
+  width: 30%;
+  text-align: start;
+  font-size: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.futurearticle {
+  height: fit-content;
+  width: 100%;
+}
+.futurearticle > .title {
+  font-size: 17px;
+  letter-spacing: 0.9px;
+}
+.futurearticle > .description {
+  font-size: 6.5px;
+  letter-spacing: 0.5px;
+  word-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.71);
+  line-height: 10px;
+  margin-bottom: 12px;
+}
+.futurearticle > .email,
+.phonenum {
+  font-size: 6px;
+  color: rgba(255, 255, 255, 0.71);
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.futurearticle > .icons {
+  display: flex;
+  gap: 6px;
+  justify-content: start;
+  margin-top: 9px;
+}
+.futurearticle > .icons > img {
+  width: 17px;
+}
+/****************************I*/
+.subscribesection {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 23%;
+  text-align: start;
+  font-size: 9px;
+}
+.subscribearticle > label {
+  font-size: 10px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.subscribearticle {
+  color: white;
+}
+.subscribearticle > input[type="text"] {
+  width: 130px;
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.512);
+  padding: 4px 0px 6.5px 8px;
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+.subscribearticle > input::placeholder {
+  font-size: 8px;
+  letter-spacing: 0.4px;
+  color: rgba(255, 255, 255, 0.506);
+}
+.subscribearticle > .subscribebutton {
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 10px 18px;
+  color: rgb(198, 82, 62);
+  font-weight: 700;
+  border-radius: 2px;
+}
+/*********************footer alll style end************** */
